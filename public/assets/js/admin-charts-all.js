@@ -6,7 +6,7 @@ Chart.defaults.global.defaultFontColor = '#292b2c';
 
 var ctx = document.getElementById("myBarChart");
 
-axios.get('http://fraud.ddns.net/charts')  //ip of server
+axios.get('http://127.0.0.1:8000')  //ip of server
   .then(function (response) {
     var myLineChart = new Chart(ctx, {
       type: 'bar',
