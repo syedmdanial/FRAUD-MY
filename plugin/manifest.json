@@ -1,0 +1,19 @@
+{
+    "name": "Fraud.my",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "Seach scammer easily",
+    "icons": {
+        "128": "fraudicon.png"
+    },
+
+    "browser_action": {
+        "default_title": "Seach scammer easily",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "http://*/*", "https://*/*"
+    ]
+}
